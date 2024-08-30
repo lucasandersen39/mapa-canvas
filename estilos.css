@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-canvas-ciudad {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    ;
+}
+
+.canvas-ciudad {
+    border: 1px solid black;
+
+}
+
+.bodyInfoMapa tr td {
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.bodyInfoMapa tr td:nth-child(2n + 1) {
+    font-weight: bold;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
